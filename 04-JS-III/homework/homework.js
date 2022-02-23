@@ -130,7 +130,7 @@ function multiplicarArgumentos() {
   for (var i = 0; i < arguments.length; i++){
     total = total * arguments[i];
   }
-  return total
+  return total;
 }
 
 
@@ -155,7 +155,7 @@ function diaDeLaSemana(numeroDeDia) {
   if (numeroDeDia === 1 || numeroDeDia === 7){
     return 'Es fin de semana';
   }
-  return 'Es dia laboral';
+  return 'Es dia Laboral';
 } 
 
 
